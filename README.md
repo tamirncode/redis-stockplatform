@@ -16,6 +16,7 @@ Redis Pub-Sub implementation.
 
 
 # Flow chart diagram
+https://github.com/tamirncode/redis-stockplatform/blob/master/Stock%20Platform.pdf
 
 
 
