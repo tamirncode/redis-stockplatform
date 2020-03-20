@@ -45,18 +45,4 @@ public class StockController {
         Optional<Stock> stock = stockService.findStockById(stockName);
         return stock.orElse(null);
     }
-
-    /**
-     * Insert a student to DB.
-     * @return
-     */
-    @RequestMapping(
-            method = RequestMethod.POST,
-            consumes = MediaType.APPLICATION_JSON_VALUE,
-            path = "/save"
-    )
-    public Stock insertNewStudent(@RequestBody @Valid Stock stock){
-        return stockService.insertNewStock(stock);
-    }
-
 }
